@@ -190,6 +190,7 @@ body {
 .portfolio-list-text {
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
 }
 
 
