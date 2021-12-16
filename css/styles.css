@@ -1,5 +1,5 @@
-/* общие */
-/* все цвета вывести в переменные */
+/* all style */
+
 :root {
     --primary-text-color:  #757575;
     --title-text-color: #212121;
@@ -52,6 +52,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
 }
 
 .auth-nav .link {
